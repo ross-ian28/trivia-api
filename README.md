@@ -11,6 +11,7 @@ A basic trivia game where you can choose the difficulty level of your questions.
 4. Run `bundle install` to install dependencies 
 5. Run `rails db:create` to create the database 
 6. Run `rails s -p 4000` to run your server from port 4000
+7. (Make sure both front-end and back-end servers are running at the same time)
 
 ## Deployment
 Project deployment coming soon...
