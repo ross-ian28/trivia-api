@@ -2,10 +2,11 @@
 require "httparty"
 require "pry"
 class Api::V1::QuestionsController < ApplicationController
-  def index
+  def create
     response = HTTParty.get("https://opentdb.com/api.php?amount=10&difficulty=#{params[:difficulty]}")
     data = JSON.parse(response.body, symbolize_names: true)[:results]
-    render json: data
+    # render json: data
+    render json: QuestionsSerializer.format_questions(data)
   end
 
   private
