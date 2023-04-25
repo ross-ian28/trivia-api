@@ -96,6 +96,7 @@ GEM
       railties (>= 3.0.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
+    htmlentities (4.3.4)
     httparty (0.21.0)
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -212,6 +213,7 @@ DEPENDENCIES
   capybara
   debug
   factory_girl_rails
+  htmlentities
   httparty
   pg (~> 1.1)
   pry
