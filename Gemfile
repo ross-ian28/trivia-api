@@ -38,6 +38,7 @@ gem "bootsnap", require: false
 gem 'httparty'
 gem 'rack-cors'
 gem 'htmlentities'
+gem "jekyll"
 
 group :development, :test do
   gem 'pry'
