@@ -10,7 +10,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     origins 'https://trivia-ross-ian28.vercel.app', 'https://trivia-api-edqv.onrender.com'
 
     resource '/api/*',
-      headers: ['Content-Type': 'application/json'],
+      headers: ['Content-Type', 'application/json'],
       methods: :post,
       expose: ['Access-Control-Allow-Origin'],
       credentials: true
