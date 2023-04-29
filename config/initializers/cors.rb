@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://trivia-ross-ian28.vercel.app'
+    origins 'https://trivia-ross-ian28.vercel.app', 'https://trivia-api-edqv.onrender.com'
 
     resource '/api/*',
       headers: :any,
