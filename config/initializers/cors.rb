@@ -7,10 +7,10 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'
+    origins 'trivia-ross-ian28.vercel.app'
     resource '*',
     headers: :any,
-    methods: :any, 
+    methods: :any,
     credentials: true
   end
 end
