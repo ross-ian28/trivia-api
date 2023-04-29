@@ -7,11 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-<<<<<<< HEAD
     origins 'https://trivia-ross-ian28.vercel.app'
-=======
-    origins 'https://trivia-ecdjg2jzb-ross-ian28.vercel.app'
->>>>>>> 7413b0e3d16e5a3c6d8e1e783408f234963ba373
 
     resource '/api/*',
       headers: :any,
