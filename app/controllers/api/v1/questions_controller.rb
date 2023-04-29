@@ -1,5 +1,5 @@
 require "httparty"
-require "pry"
+
 class Api::V1::QuestionsController < ApplicationController
   def create
     if params[:category] != ""

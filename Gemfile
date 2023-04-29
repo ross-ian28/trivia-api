@@ -39,10 +39,6 @@ gem 'httparty'
 gem 'rack-cors'
 gem 'htmlentities'
 
-group :development, :test do
-  gem 'pry'
-end
-
 group :test do
   gem "capybara"
   gem "rspec-rails"
