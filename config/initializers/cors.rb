@@ -10,6 +10,8 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     origins 'https://trivia-g0noib7o8-ross-ian28.vercel.app'
     resource '/api/*',
       headers: :any,
-      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+      methods: [:get, :post, :put, :patch, :delete, :options, :head],
+      expose: ['Authorization', 'Uid', 'Client', 'Access-Token', 'expiry', 'token-type'],
+      max_age: 600
   end
 end
