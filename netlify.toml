@@ -1,0 +1,5 @@
+[build]
+  command = "rvm use 2.7.4 && bundle install && bundle exec jekyll build"
+  publish = "public"
+[[plugins]]
+    package = "netlify-plugin-ruby"
