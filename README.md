@@ -5,6 +5,8 @@ This is the back-end repo for the trivia fun game. Check out the front-end repo 
 ## About this Project 
 A basic trivia game where you can choose the difficulty level and category of your questions. You'll be asked 10 questions from the selected category and your total will be added up at the end.
 
+## Deployment
+Deployed site [here](https://trivia-ross-ian28.vercel.app/)
 
 ## SetUp for Local
 1. Fork this Repo
@@ -14,10 +16,6 @@ A basic trivia game where you can choose the difficulty level and category of yo
 5. Run `rails db:create` to create the database 
 6. Run `rails s -p 4000` to run your server from port 4000
 7. (Make sure both front-end and back-end servers are running at the same time)
-
-
-## Deployment
-Project deployment coming soon...
 
 ## End Point
 
