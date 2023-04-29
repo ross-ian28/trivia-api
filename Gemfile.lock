@@ -84,34 +84,6 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.13.0)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.2)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (~> 1.0)
-      jekyll-sass-converter (>= 2.0, < 4.0)
-      jekyll-watch (~> 2.0)
-      kramdown (~> 2.3, >= 2.3.1)
-      kramdown-parser-gfm (~> 1.0)
-      liquid (~> 4.0)
-      mercenary (>= 0.3.6, < 0.5)
-      pathutil (~> 0.9)
-      rouge (>= 3.0, < 5.0)
-      safe_yaml (~> 1.0)
-      terminal-table (>= 1.8, < 4.0)
-      webrick (~> 1.7)
-    jekyll-sass-converter (3.0.0)
-      sass-embedded (~> 1.54)
-    jekyll-watch (2.2.1)
-      listen (~> 3.0)
-    kramdown (2.4.0)
-      rexml
-    kramdown-parser-gfm (1.1.0)
-      kramdown (~> 2.0)
-    liquid (4.0.4)
-    listen (3.8.0)
-      rb-fsevent (~> 0.10, >= 0.10.3)
-      rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.20.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -125,7 +97,6 @@ GEM
     mercenary (0.4.0)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.1)
     minitest (5.18.0)
     msgpack (1.7.0)
     multi_xml (0.6.0)
@@ -139,12 +110,9 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.14.3)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
-    pathutil (0.16.2)
-      forwardable-extended (~> 2.6)
-    pg (1.5.2)
+    pg (1.5.3)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -186,8 +154,6 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.8.0)
-    rexml (3.2.5)
-    rouge (4.1.0)
     rspec-core (3.12.2)
       rspec-support (~> 3.12.0)
     rspec-expectations (3.12.3)
@@ -196,34 +162,15 @@ GEM
     rspec-mocks (3.12.5)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
-    rspec-rails (5.1.2)
-      actionpack (>= 5.2)
-      activesupport (>= 5.2)
-      railties (>= 5.2)
-      rspec-core (~> 3.10)
-      rspec-expectations (~> 3.10)
-      rspec-mocks (~> 3.10)
-      rspec-support (~> 3.10)
+    rspec-rails (6.0.1)
+      actionpack (>= 6.1)
+      activesupport (>= 6.1)
+      railties (>= 6.1)
+      rspec-core (~> 3.11)
+      rspec-expectations (~> 3.11)
+      rspec-mocks (~> 3.11)
+      rspec-support (~> 3.11)
     rspec-support (3.12.0)
-    safe_yaml (1.0.5)
-    sass-embedded (1.62.1)
-      google-protobuf (~> 3.21)
-      rake (>= 10.0.0)
-    simplecov (0.22.0)
-      docile (~> 1.1)
-      simplecov-html (~> 0.11)
-      simplecov_json_formatter (~> 0.1)
-    simplecov-html (0.12.3)
-    simplecov_json_formatter (0.1.4)
-    sprockets (4.2.0)
-      concurrent-ruby (~> 1.0)
-      rack (>= 2.2.4, < 4)
-    sprockets-rails (3.4.2)
-      actionpack (>= 5.2)
-      activesupport (>= 5.2)
-      sprockets (>= 3.0.0)
-    terminal-table (3.0.2)
-      unicode-display_width (>= 1.1.1, < 3)
     thor (1.2.1)
     thread_safe (0.3.6)
     timeout (0.3.2)
@@ -241,9 +188,10 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+    zeitwerk (2.6.8)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-22
 
 DEPENDENCIES
   bootsnap
@@ -255,9 +203,8 @@ DEPENDENCIES
   pry
   puma (~> 5.0)
   rack-cors
-  rails (~> 5.2.8, >= 5.2.8.1)
+  rails (~> 7.0.4, >= 7.0.4.3)
   rspec-rails
-  simplecov
   tzinfo-data
   vcr
   webmock
@@ -266,4 +213,4 @@ RUBY VERSION
    ruby 2.7.4p191
 
 BUNDLED WITH
-   2.1.4
+   2.4.12
