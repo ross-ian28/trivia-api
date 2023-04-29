@@ -84,3 +84,4 @@ production:
   database: triva_be_production
   username: triva_be
   password: <%= ENV["TRIVA_BE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
