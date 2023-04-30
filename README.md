@@ -9,13 +9,14 @@ A basic trivia game where you can choose the difficulty level and category of yo
 Deployed site [here](https://trivia-ross-ian28.vercel.app/)
 
 ## SetUp for Local
-1. Fork this Repo
-2. Clone it down to your machine
-3. `cd` into the root of the project directory
-4. Run `bundle install` to install dependencies 
-5. Run `rails db:create` to create the database 
-6. Run `rails s -p 4000` to run your server from port 4000
-7. (Make sure both front-end and back-end servers are running at the same time)
+1. Fork and clone the repo to your local machine with SSH: `git clone git@github.com:ross-ian28/trivia-be.git`
+2. `cd` into the root of the project directory
+3. Install gems and dependencies: `bundle install`
+4. Create the database with: `rails db:create`
+5. Run test suite: `bundle exec rspec`
+6. Run your server from port 4000: `rails s -p 4000` 
+7. Call the endpoint: `http://localhost:4000/api/v1/questions` to consume the api locally
+8. (Make sure both front-end and back-end servers are running at the same time if you want to play the game on local)
 
 ## End Point
 
@@ -76,71 +77,7 @@ headers: Content-Type = application/json
                 "Sharks",
                 "Squids"
             ]
-        },
-        {
-            "question": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
-            "category": "Entertainment: Musicals & Theatres",
-            "difficulty": "hard",
-            "correct_answer": "Chorus",
-            "incorrect_answers": [
-                "Montague",
-                "Refrain",
-                "Capulet"
-            ]
-        },
-        {
-            "question": "After England, more Shakespeare plays are set in this present day country than in any other.",
-            "category": "Entertainment: Musicals & Theatres",
-            "difficulty": "hard",
-            "correct_answer": "Italy",
-            "incorrect_answers": [
-                "United States",
-                "Greece",
-                "France"
-            ]
-        },
-        {
-            "question": "Who played \"Charlie Price\" in the musical \"Kinky Boots\" on Broadway in New York from May 26th - Aug 6th 2017?",
-            "category": "Entertainment: Musicals & Theatres",
-            "difficulty": "hard",
-            "correct_answer": "Brendon Urie",
-            "incorrect_answers": [
-                "Ed Sheeren",
-                "Tom Cruise",
-                "Dallon Weekes"
-            ]
-        },
-        {
-            "question": "Which Shakespeare play features the stage direction \"Enter a messenger, with two heads and a hand\"?",
-            "category": "Entertainment: Musicals & Theatres",
-            "difficulty": "hard",
-            "correct_answer": "Titus Andronicus",
-            "incorrect_answers": [
-                "Othello",
-                "Macbeth",
-                "King Lear"
-            ]
-        },
-        {
-            "question": "Which of these plays was famously first performed posthumously after the playwright committed suicide?",
-            "category": "Entertainment: Musicals & Theatres",
-            "difficulty": "hard",
-            "correct_answer": "4.48 Psychosis",
-            "incorrect_answers": [
-                "Hamilton",
-                "Much Ado About Nothing",
-                "The Birthday Party"
-            ]
-        },
-        {
-            "question": "The protagonist's names in 'Who's Afraid of Virginia Woolf', George and Martha, were derived from George Washington and his wife.",
-            "category": "Entertainment: Musicals & Theatres",
-            "difficulty": "hard",
-            "correct_answer": "True",
-            "incorrect_answers": [
-                "False"
-            ]
-        }
+        }...
     ],
     "score": 0
 ```
