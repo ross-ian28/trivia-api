@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&difficulty=easy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 30 Apr 2023 06:39:08 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=5305f41e696d24a05573d0a59e56e6ca; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"Science: Mathematics","type":"boolean","difficulty":"easy","question":"A
+        universal set, or a set that contains all sets, exists.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment:
+        Video Games","type":"multiple","difficulty":"easy","question":"Which of these
+        is NOT a playable character in the 2016 video game Overwatch?","correct_answer":"Invoker","incorrect_answers":["Mercy","Winston","Zenyatta"]},{"category":"Entertainment:
+        Film","type":"multiple","difficulty":"easy","question":"Which movie includes
+        a giant bunny-like spirit who has magic powers including growing trees?","correct_answer":"My
+        Neighbor Totoro","incorrect_answers":["Hop","Rise of the Guardians","Alice
+        in Wonderland"]},{"category":"History","type":"multiple","difficulty":"easy","question":"How
+        was Socrates executed?","correct_answer":"Poison","incorrect_answers":["Decapitation","Firing
+        squad","Crucifixion "]},{"category":"Politics","type":"multiple","difficulty":"easy","question":"Who
+        was the 45th President of the United States?","correct_answer":"Donald Trump","incorrect_answers":["Barack
+        Obama","Bill Clinton","George Bush"]},{"category":"Entertainment: Cartoon
+        & Animations","type":"multiple","difficulty":"easy","question":"What is Everest&#039;s
+        favorite food in the Nickelodeon\/Nick Jr. series &quot;PAW Patrol&quot;?","correct_answer":"Liver","incorrect_answers":["Chicken","Steak","Caribou"]},{"category":"History","type":"multiple","difficulty":"easy","question":"What
+        year did World War I begin?","correct_answer":"1914","incorrect_answers":["1905","1919","1925"]},{"category":"Sports","type":"multiple","difficulty":"easy","question":"Which
+        boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in
+        1997?","correct_answer":"Mike Tyson","incorrect_answers":["Roy Jones Jr.","Evander
+        Holyfield","Lennox Lewis"]},{"category":"Art","type":"multiple","difficulty":"easy","question":"Which
+        painting was not made by Vincent Van Gogh?","correct_answer":"The Ninth Wave","incorrect_answers":["Caf&eacute;
+        Terrace at Night","Bedroom In Arles","Starry Night"]},{"category":"Entertainment:
+        Video Games","type":"multiple","difficulty":"easy","question":"In the game
+        &quot;Fire Emblem: Shadow Dragon&quot;, what is the central protagonist&#039;s
+        name?","correct_answer":"Marth","incorrect_answers":["Roy","Eliwood","Robin"]}]}'
+  recorded_at: Sun, 30 Apr 2023 06:39:08 GMT
+recorded_with: VCR 6.1.0

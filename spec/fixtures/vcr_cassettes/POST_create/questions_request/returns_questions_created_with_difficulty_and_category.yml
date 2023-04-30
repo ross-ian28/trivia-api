@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&category=9&difficulty=easy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 30 Apr 2023 06:39:08 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=3c5f825608360206333c7309f9bd341e; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"What
+        does a funambulist walk on?","correct_answer":"A Tight Rope","incorrect_answers":["Broken
+        Glass","Balls","The Moon"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"What
+        is the name of the Jewish New Year?","correct_answer":"Rosh Hashanah","incorrect_answers":["Elul","New
+        Year","Succoss"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"How
+        many colors are there in a rainbow?","correct_answer":"7","incorrect_answers":["8","9","10"]},{"category":"General
+        Knowledge","type":"boolean","difficulty":"easy","question":"You can legally
+        drink alcohol while driving in Mississippi.","correct_answer":"True","incorrect_answers":["False"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"Who is depicted
+        on the US hundred dollar bill?","correct_answer":"Benjamin Franklin","incorrect_answers":["George
+        Washington","Abraham Lincoln","Thomas Jefferson"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"What
+        do the letters of the fast food chain KFC stand for?","correct_answer":"Kentucky
+        Fried Chicken","incorrect_answers":["Kentucky Fresh Cheese","Kibbled Freaky
+        Cow","Kiwi Food Cut"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"What
+        machine element is located in the center of fidget spinners?","correct_answer":"Bearings","incorrect_answers":["Axles","Gears","Belts"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"What is Cynophobia
+        the fear of?","correct_answer":"Dogs","incorrect_answers":["Birds","Flying","Germs"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"Who is the youngest
+        person to recieve a Nobel Prize?","correct_answer":"Malala Yousafzai","incorrect_answers":["Lawrence
+        Bragg","Werner Heisenberg","Yasser Arafat"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"The
+        &ldquo;fairy&rdquo; type made it&rsquo;s debut in which generation of the
+        Pokemon core series games?","correct_answer":"6th","incorrect_answers":["2nd","7th","4th"]}]}'
+  recorded_at: Sun, 30 Apr 2023 06:39:08 GMT
+recorded_with: VCR 6.1.0
