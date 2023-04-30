@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&category=9&difficulty=easy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 30 Apr 2023 05:33:54 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=41820df934176b277dcf2480bb2fe650; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"Which
+        company did Valve cooperate with in the creation of the Vive?","correct_answer":"HTC","incorrect_answers":["Oculus","Google","Razer"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"In past times,
+        what would a gentleman keep in his fob pocket?","correct_answer":"Watch","incorrect_answers":["Money","Keys","Notebook"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"What is the name
+        of the Jewish New Year?","correct_answer":"Rosh Hashanah","incorrect_answers":["Elul","New
+        Year","Succoss"]},{"category":"General Knowledge","type":"boolean","difficulty":"easy","question":"Nutella
+        is produced by the German company Ferrero.","correct_answer":"False","incorrect_answers":["True"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"How many colors
+        are there in a rainbow?","correct_answer":"7","incorrect_answers":["8","9","10"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"Which American-owned
+        brewery led the country in sales by volume in 2015?","correct_answer":"D.
+        G. Yuengling and Son, Inc","incorrect_answers":["Anheuser Busch","Boston Beer
+        Company","Miller Coors"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"Which
+        country, not including Japan, has the most people of japanese decent?","correct_answer":"Brazil","incorrect_answers":["China","South
+        Korea","United States of America"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"The
+        Canadian $1 coin is colloquially known as a what?","correct_answer":"Loonie","incorrect_answers":["Boolie","Foolie","Moodie"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"Which of the
+        following is not an Ivy League University?","correct_answer":"Stanford","incorrect_answers":["University
+        of Pennsylvania","Harvard","Princeton"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"The
+        &ldquo;fairy&rdquo; type made it&rsquo;s debut in which generation of the
+        Pokemon core series games?","correct_answer":"6th","incorrect_answers":["2nd","7th","4th"]}]}'
+  recorded_at: Sun, 30 Apr 2023 05:33:54 GMT
+recorded_with: VCR 6.1.0

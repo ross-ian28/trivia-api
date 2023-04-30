@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&difficulty=easy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 30 Apr 2023 06:24:49 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=25884c76dcf4274ed82915a1e3908d28; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"Who
+        is the main character of the game Half-Life: Opposing Force?","correct_answer":"Adrian
+        Shephard","incorrect_answers":["Gordon Freeman","Alyx Vance","Barney Calhoun"]},{"category":"Entertainment:
+        Video Games","type":"multiple","difficulty":"easy","question":"Which of these
+        video game engines was made by the company Epic Games?","correct_answer":"Unreal","incorrect_answers":["Unity","Game
+        Maker: Studio","Cry Engine"]},{"category":"Geography","type":"multiple","difficulty":"easy","question":"If
+        soccer is called football in England, what is American football called in
+        England?","correct_answer":"American football","incorrect_answers":["Combball","Handball","Touchdown"]},{"category":"Entertainment:
+        Video Games","type":"multiple","difficulty":"easy","question":"In the 2002
+        video game &quot;Kingdom Hearts&quot;, how many Keyblades are usable?","correct_answer":"18","incorrect_answers":["13","16","15"]},{"category":"Entertainment:
+        Video Games","type":"boolean","difficulty":"easy","question":"In the &quot;Half-Life&quot;
+        series, &quot;H.E.V&quot; stands for &quot;Hazardous Evasiveness Vest&quot;","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment:
+        Music","type":"multiple","difficulty":"easy","question":"Which one of these
+        songs did the group &quot;Men At Work&quot; NOT make?","correct_answer":"Safety
+        Dance","incorrect_answers":["Down Under","Who Can It Be Now?","It&#039;s a
+        Mistake"]},{"category":"Entertainment: Music","type":"multiple","difficulty":"easy","question":"Kanye
+        West at 2009 VMA&#039;s interrupted which celebrity?","correct_answer":"Taylor
+        Swift","incorrect_answers":["MF DOOM","Beyonce","Beck"]},{"category":"Entertainment:
+        Cartoon & Animations","type":"multiple","difficulty":"easy","question":"What
+        is lost in Hawaiian and is also the name of a little girl in a 2002 film which
+        features a alien named &quot;Stitch&quot;?","correct_answer":"Lilo","incorrect_answers":["Lolo","Lucy","Lulu"]},{"category":"Vehicles","type":"multiple","difficulty":"easy","question":"What
+        are the cylinder-like parts that pump up and down within the engine?","correct_answer":"Pistons","incorrect_answers":["Leaf
+        Springs","Radiators","ABS"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"Which
+        psychopath(s) in Dead Rising 1 gave you the small chainsaw?","correct_answer":"Adam
+        the Clown","incorrect_answers":["Cliff Hudson","The convicts","Larry the butcher"]}]}'
+  recorded_at: Sun, 30 Apr 2023 06:24:49 GMT
+recorded_with: VCR 6.1.0

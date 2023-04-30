@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&difficulty=easy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 30 Apr 2023 06:05:13 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=b4bbdd7a08ab310fbbc7fa9a938e3205; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"Which
+        Greek letter represents the &quot;Half-Life&quot; logo?","correct_answer":"Lambda","incorrect_answers":["Omega","Alpha","Sigma"]},{"category":"Geography","type":"multiple","difficulty":"easy","question":"Which
+        of these is NOT an Australian state or territory?","correct_answer":"Alberta","incorrect_answers":["New
+        South Wales","Victoria","Queensland"]},{"category":"Entertainment: Board Games","type":"multiple","difficulty":"easy","question":"How
+        many dots are on a single die?","correct_answer":"21","incorrect_answers":["24","15","18"]},{"category":"Geography","type":"multiple","difficulty":"easy","question":"All
+        of the following are classified as Finno-Ugric languages EXCEPT:","correct_answer":"Samoyedic","incorrect_answers":["Hungarian","Finnish","Estonian"]},{"category":"Entertainment:
+        Comics","type":"boolean","difficulty":"easy","question":"The &quot;Pepe&quot;
+        meme originated from a comic drawn by Matt Furie called &quot;Boy&#039;s Club&quot;?","correct_answer":"True","incorrect_answers":["False"]},{"category":"Entertainment:
+        Music","type":"multiple","difficulty":"easy","question":"In 2006, which band
+        released their debut album &quot;A Fever You Can&#039;t Sweat Out&quot;?","correct_answer":"Panic!
+        At the Disco","incorrect_answers":["Twenty One Pilots","My Chemical Romance","Fall
+        Out Boy"]},{"category":"Entertainment: Music","type":"multiple","difficulty":"easy","question":"Who
+        is the lead singer of Green Day?","correct_answer":"Billie Joe Armstrong","incorrect_answers":["Mike
+        Dirnt","Sean Hughes","Tr&eacute; Cool"]},{"category":"Entertainment: Japanese
+        Anime & Manga","type":"multiple","difficulty":"easy","question":"In &quot;To
+        Love-Ru&quot;, Ren and Run are from what planet?","correct_answer":"Memorze","incorrect_answers":["Deviluke","Mistletoe","Okiwana"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"Which candy is
+        NOT made by Mars?","correct_answer":"Almond Joy","incorrect_answers":["M&amp;M&#039;s","Twix","Snickers"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"If you are caught
+        &quot;Goldbricking&quot;, what are you doing wrong?","correct_answer":"Slacking","incorrect_answers":["Smoking","Stealing","Cheating"]}]}'
+  recorded_at: Sun, 30 Apr 2023 06:05:13 GMT
+recorded_with: VCR 6.1.0

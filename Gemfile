@@ -42,6 +42,11 @@ gem 'htmlentities'
 group :test do
   gem "capybara"
   gem "rspec-rails"
+  gem 'simplecov'
+  gem 'webmock'
+  gem 'vcr'
+  gem 'pry'
+  gem 'net-protocol'
 end
 
 group :development do

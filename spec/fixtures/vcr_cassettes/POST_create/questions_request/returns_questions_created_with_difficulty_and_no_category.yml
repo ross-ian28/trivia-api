@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&difficulty=easy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 30 Apr 2023 06:39:08 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=4e88ae36e0b5fa07660130fcd16e514c; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"Entertainment: Film","type":"multiple","difficulty":"easy","question":"What
+        breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?","correct_answer":"Labrador
+        Retriever","incorrect_answers":["Golden Retriever","Dalmatian","Shiba Inu"]},{"category":"Entertainment:
+        Film","type":"multiple","difficulty":"easy","question":"Who wrote and directed
+        the 1986 film &#039;Platoon&#039;?","correct_answer":"Oliver Stone","incorrect_answers":["Francis
+        Ford Coppola","Stanley Kubrick","Michael Cimino"]},{"category":"Entertainment:
+        Cartoon & Animations","type":"multiple","difficulty":"easy","question":"What
+        was the first Disney movie to use CGI?","correct_answer":"The Black Cauldron","incorrect_answers":["Tron","Toy
+        Story","Fantasia"]},{"category":"Entertainment: Television","type":"multiple","difficulty":"easy","question":"In
+        the show &quot;Tengen Toppa Gurren Lagann&quot; what is the name of the character
+        who force everyone to live underground?","correct_answer":"Lordgenome","incorrect_answers":["Kingloname","Lord
+        Genome","King Loname"]},{"category":"Mythology","type":"multiple","difficulty":"easy","question":"In
+        most traditions, who was the wife of Zeus?","correct_answer":"Hera","incorrect_answers":["Aphrodite","Athena","Hestia"]},{"category":"Entertainment:
+        Video Games","type":"boolean","difficulty":"easy","question":"In Pok&eacute;mon,
+        Bulbasaur is the only starter pokemon that is a Grass\/Poison type.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Vehicles","type":"boolean","difficulty":"easy","question":"BMW
+        M GmbH is a subsidiary of BMW AG that focuses on car performance.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Sports","type":"multiple","difficulty":"easy","question":"What
+        is the name of Manchester United&#039;s home stadium?","correct_answer":"Old
+        Trafford","incorrect_answers":["Anfield","City of Manchester Stadium","St
+        James Park"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"What
+        is the profession of Elon Musk&#039;s mom, Maye Musk?","correct_answer":"Model","incorrect_answers":["Professor","Biologist","Musician"]},{"category":"Geography","type":"multiple","difficulty":"easy","question":"What
+        is the largest country in the world ?","correct_answer":"Russian Federation","incorrect_answers":["China","Canada","Brazil"]}]}'
+  recorded_at: Sun, 30 Apr 2023 06:39:08 GMT
+recorded_with: VCR 6.1.0

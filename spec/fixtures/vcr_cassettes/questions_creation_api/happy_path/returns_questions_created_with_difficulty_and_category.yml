@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&category=9&difficulty=easy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 30 Apr 2023 06:24:49 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=5a0d94d58d72f57dc9b4a02769ec8e90; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"What
+        word represents the letter &#039;T&#039; in the NATO phonetic alphabet?","correct_answer":"Tango","incorrect_answers":["Target","Taxi","Turkey"]},{"category":"General
+        Knowledge","type":"boolean","difficulty":"easy","question":"Nutella is produced
+        by the German company Ferrero.","correct_answer":"False","incorrect_answers":["True"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"How many colors
+        are there in a rainbow?","correct_answer":"7","incorrect_answers":["8","9","10"]},{"category":"General
+        Knowledge","type":"boolean","difficulty":"easy","question":"A scientific study
+        on peanuts in bars found traces of over 100 unique specimens of urine.","correct_answer":"False","incorrect_answers":["True"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"According to
+        Sherlock Holmes, &quot;If you eliminate the impossible, whatever remains,
+        however improbable, must be the...&quot;","correct_answer":"Truth","incorrect_answers":["Answer","Cause","Source"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"What company
+        developed the vocaloid Hatsune Miku?","correct_answer":"Crypton Future Media","incorrect_answers":["Sega","Sony","Yamaha
+        Corporation"]},{"category":"General Knowledge","type":"multiple","difficulty":"easy","question":"When
+        someone is cowardly, they are said to have what color belly?","correct_answer":"Yellow","incorrect_answers":["Green","Red","Blue"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"The Canadian
+        $1 coin is colloquially known as a what?","correct_answer":"Loonie","incorrect_answers":["Boolie","Foolie","Moodie"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"What is the French
+        word for &quot;fish&quot;?","correct_answer":"poisson","incorrect_answers":["fiche","escargot","mer"]},{"category":"General
+        Knowledge","type":"multiple","difficulty":"easy","question":"The &ldquo;fairy&rdquo;
+        type made it&rsquo;s debut in which generation of the Pokemon core series
+        games?","correct_answer":"6th","incorrect_answers":["2nd","7th","4th"]}]}'
+  recorded_at: Sun, 30 Apr 2023 06:24:49 GMT
+recorded_with: VCR 6.1.0
