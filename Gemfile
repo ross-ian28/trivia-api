@@ -45,7 +45,6 @@ group :test do
   gem 'simplecov'
   gem 'webmock'
   gem 'vcr'
-  gem 'pry'
   gem 'net-protocol'
 end
 

@@ -1,5 +1,4 @@
 require "rails_helper"
-require "pry"
 
 RSpec.describe "POST #create" do
   describe "questions request" do
@@ -17,7 +16,6 @@ RSpec.describe "POST #create" do
       expect(response).to be_successful
 
       expect(questions).to be_an(Array)
-
       expect(questions.length).to eq(10)
       expect(questions[0]).to include :question, :category, :difficulty, :correct_answer, :incorrect_answers
       expect(questions[0][:question]).to be_a(String)
