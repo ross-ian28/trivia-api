@@ -49,21 +49,5 @@ RSpec.describe "POST #create" do
       expect(questions[0][:correct_answer]).to be_a(String)
       expect(questions[0][:incorrect_answers]).to be_an(Array)
     end
-    # it "checks question params", :vcr do
-    #   params = {
-    #     difficulty: "easy",
-    #     category: ""
-    #   }
-    #   headers = { "Content-Type" => "application/json" }
-    #
-    #   post "/api/v1/questions", headers: headers, params: JSON.generate(params.merge(invalid_param: "invalid"))
-    #
-    #   questions = JSON.parse(response.body, symbolize_names: true)[:questions]
-    #
-    #   expect(response).to be_successful
-    #
-    #   expect(response).to have_http_status(:unprocessable_entity)
-    #   expect(response.body).to match(/Unpermitted parameters: invalid_param/)
-    # end
   end
 end
